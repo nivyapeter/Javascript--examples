@@ -1153,7 +1153,7 @@ a {
   border-bottom: 2px solid #f0f0f0;
   background-color: white;
   /* margin-top: .2%; */
-  height:8%;
+  /* height:8%; */
 }
 .first {
   display: flex;
@@ -1176,17 +1176,17 @@ a {
 .mobile-text {
   cursor: pointer;
   width: 100%;
-  position: relative;
+  /* position: relative; */
   display: block;
 }
 .mobile-input {
   visibility: hidden;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
 }
 .mob ::before{
-  position: absolute;
+  /* position: absolute; */
   content: "";
   left: 5px;
   top: 3px;
@@ -1217,7 +1217,7 @@ a {
   cursor: pointer;
 }
 .heart-symbol {
-  position: absolute;
+  /* position: absolute; */
   display: inline-block;
   top: 2px;
   right: -8px;
@@ -1225,7 +1225,7 @@ a {
 }
 .heart-symbol1 {
   display: inline-block;
-  position: relative;
+  /* position: relative; */
 }
 .eX72wL {
   fill: #c2c2c2;

@@ -1,15 +1,13 @@
+const mobiles = [
+  {id: 1, name: 'realme C21 (Cross Blue, 64 GB)', price:8999 , imgurl:"https://rukminim1.flixcart.com/image/312/312/kn7sdjk0/mobile/g/r/g/c21-rmx3201-realme-original-imagfxfwn9aryyda.jpeg?q=70"},
+{id: 2, name: 'realme C21 (Cross Black, 32 GB)', price: 7999, imgurl: "https://rukminim1.flixcart.com/image/312/312/kn7sdjk0/mobile/q/j/x/c21-rmx3201-realme-original-imagfxfwbszrxkvu.jpeg?q=70"}
+];
 
-
-
-
-const container = document.getElementById('mobile-container');
-container.innerHTML = ` <div class ="first-mobile" id='first-mobile'>
+  const container = document.getElementById('mobile-container'); 
+  mobiles.map(mobile => {
+  container.innerHTML += ` <div class ="first-mobile" id='mobile-container'>
 <div class="first" id="mobimg">
-  <img
-    class="firstimg" id="img"
-    src="https://rukminim1.flixcart.com/image/312/312/kn7sdjk0/mobile/g/r/g/c21-rmx3201-realme-original-imagfxfwn9aryyda.jpeg?q=70"
-    alt="mob-img"
-  />
+  <img src=${mobile.imgurl}/>
   <div class="text-block" id="textblock">
     <span class="text-block-1">
       <label class="mobile-text">
@@ -45,7 +43,7 @@ container.innerHTML = ` <div class ="first-mobile" id='first-mobile'>
 </div>
 <div class="mob-first-details">
   <div class="mobiledetails">
-    <h2 id="content">realme C21 (Cross Blue, 64 GB)</h2>
+  <h2>${mobile.name}</h2>
     <div class="rating-button" id="ratingbtn">
       <button class="rating">
         4.3
@@ -80,7 +78,7 @@ container.innerHTML = ` <div class ="first-mobile" id='first-mobile'>
     <div class="price-first-block">
       <div class="price-fst">
         <div class="price-1">
-          <strong>₹8,999</strong>
+        <strong>${mobile.price}</strong>
 
           <img
             class="side-img"
@@ -111,3 +109,7 @@ container.innerHTML = ` <div class ="first-mobile" id='first-mobile'>
     </div>
   </div>
 </div>`
+
+
+
+});
