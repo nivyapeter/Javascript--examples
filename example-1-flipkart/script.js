@@ -7,7 +7,7 @@ const mobiles = [
   mobiles.map(mobile => {
   container.innerHTML += ` <div class ="first-mobile" id='mobile-container'>
 <div class="first" id="mobimg">
-  <img src=${mobile.imgurl}/>
+  <img src='${mobile.imgurl}'/>
   <div class="text-block" id="textblock">
     <span class="text-block-1">
       <label class="mobile-text">
