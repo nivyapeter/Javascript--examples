@@ -568,6 +568,7 @@ svg :not(:root) {
   box-sizing: border-box;
   vertical-align: top;
   margin-left: 50%;
+  width:22rem;
 }
 .food-wrap-card {
   border:1px solid #e6e6e6;
@@ -713,7 +714,7 @@ svg :not(:root) {
   margin-top: 30px;
   padding-left:15px;
   padding-right:15px;
-  width: 23.33333%;
+  width: 33.33333%;
   display: inline-block;
   font-size:14px;
   line-height:1.28571em;

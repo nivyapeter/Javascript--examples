@@ -8,7 +8,8 @@ fetch('mydata.json')
   .catch(function (err) {
     console.log(err);
   });
-  
+  // document.getElementById("bg").style.backgroundImage =[data[i].imgurl];
+  // document.getElementById("business-container").style.flexDirection = "row";
   
   function appendData(data) {
     var mainContainer = document.getElementById("business-container");
@@ -17,7 +18,8 @@ fetch('mydata.json')
         div.innerHTML += `<div class="food-wrap1">
         <div class="food-wrap-card">
           <div class="food-wrap-photo">
-            <div class="photo-box-ground">
+            <div class="photo-box-ground" id="bg">
+            <img src=${data[i].imgurl}>
             </div>
           </div>
           <div class="card-body">
@@ -32,7 +34,7 @@ fetch('mydata.json')
           </h3>
           <div class="biz-rating clearfix">
             <div class="i-stars i-stars--regular-4-half rating-large">
-            <img src='${data[i].imgurl}'/>
+            <img class="offscreen" src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yji-9bec2045845c24d3bff3ddb582884eda.png" alt="star-image">
             </div>
             <span class="rating-qualifier">
             ${data[i].rating}

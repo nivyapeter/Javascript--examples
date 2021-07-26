@@ -6,7 +6,7 @@
      "category" : "Thai,Noodles", 
      "statlist" : "Outer Sunset", 
      "days" : "Opened 7 weeks ago",
-     "imgurl" : "https://s3-media0.fl.yelpcdn.com/bphoto/B2-bTUQqKrB3HNwgq6reZQ/l.jpg"
+     "imgurl" : "(https://s3-media0.fl.yelpcdn.com/bphoto/B2-bTUQqKrB3HNwgq6reZQ/l.jpg"
    } ,
   {
      "id": "2",
@@ -15,7 +15,7 @@
      "category" : "Japanees,Food Delivery Services,Comfort Food", 
      "statlist" : "SoMa", 
      "days" : "Opened 4 weeks ago",
-     "imgurl" : "https://s3-media0.fl.yelpcdn.com/assets/public/stars.yji-9bec2045845c24d3bff3ddb582884eda.png"
+     "imgurl" : "https://s3-media0.fl.yelpcdn.com/bphoto/yy2TY-s7uKsH2NfRm8KgJA/l.jpg"
   },
   {
      "id": "3",
@@ -24,7 +24,7 @@
      "category" : "American(New),Brasseries,Desserts", 
      "statlist" : "Mission", 
      "days" : "Opened a few days ago",
-     "imgurl" : "https://s3-media0.fl.yelpcdn.com/assets/public/stars.yji-9bec2045845c24d3bff3ddb582884eda.png"
+     "imgurl" : "https://s3-media0.fl.yelpcdn.com/bphoto/ArVb41iFxQilNGqY6a7Ifg/l.jpg"
      }
 ]
   
