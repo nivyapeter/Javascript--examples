@@ -18,4 +18,7 @@ html {
   flex-wrap: nowrap;
   align-items: center;
   background: red;
+  left:0;
+  right:0;
+  
 }
