@@ -10,7 +10,13 @@ html {
   box-sizing:border-box;
   margin:0%;
   padding:0;
+  
 
+}
+.main-nav {
+  background-color: red;
+  height:20vh;
+  width:100%;
 }
 .navbar {
   padding:1.5rem 1rem;
@@ -21,4 +27,12 @@ html {
   left:0;
   right:0;
   
+}
+.navbarblock{
+  display: flex;
+  width:100%;
+}
+.navbar-nav {
+  flex-direction: row;
+  list-style: none;
 }
