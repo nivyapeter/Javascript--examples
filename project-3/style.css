@@ -4,18 +4,27 @@ html {
   margin: 0px;
   padding: 0px;
   overflow-x:hidden;
+  overflow-y: scroll;
   
 }
 *{
   box-sizing:border-box;
   margin:0%;
   padding:0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #292b2c;
   
 
 }
-.main-nav {
-  background-color: red;
-  height:20vh;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
   width:100%;
 }
 .navbar {
@@ -23,16 +32,58 @@ html {
   box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.05);
   flex-wrap: nowrap;
   align-items: center;
-  background: red;
+  background: white;
   left:0;
   right:0;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  flex-wrap: nowrap;
   
 }
 .navbarblock{
-  display: flex;
+  display: flex !important;
   width:100%;
+  flex-basis: auto;
+  align-items: center;
+  
+
 }
 .navbar-nav {
+  display: flex;
   flex-direction: row;
   list-style: none;
+  text-decoration: none;
+  margin-left:auto !important;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.dropdownbtn{
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 134px;
+  height: 40px;
+  padding-top: 7px;
+}
+.dropdown-content {
+  display: none;
+}
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right:15px;
+  padding-left: 15px;
+}
+.highlight {
+  background-color: #6FD350;
+  border-radius: 4px;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
