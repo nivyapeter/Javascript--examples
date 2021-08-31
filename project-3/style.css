@@ -27,6 +27,7 @@ html {
   padding-left: 15px;
   padding-right: 15px;
   width:100%;
+  
 }
 .navbar {
   padding:1.5rem 1rem;
@@ -106,7 +107,7 @@ html {
   position: absolute;
   right: 1rem;
 }
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   display: inline-block;
   width:1.5em;
@@ -114,6 +115,24 @@ html {
   vertical-align: middile;
   background:no-repeat center center;
   background-size: 100% 100%;
+} */
+.toggle-button {
+  position: absolute;
+top: 0.75rem;
+right: 1rem;
+flex-direction: column;
+justify-content: space-between;
+width: 25px;
+height: 21px;
+display: flex;
+flex-direction: column;
+}
+.bar {
+  height: 3px;
+width: 100%;
+background-color: black;
+border-radius: 10px;
+
 }
 .navbarblock {
   display: none;
