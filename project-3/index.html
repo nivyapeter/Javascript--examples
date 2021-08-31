@@ -8,6 +8,7 @@
   <!-- <link rel="stylsheet" href="css/bootstrap.css"/> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.js">
   <title>New project</title>
 </head>
 
@@ -27,11 +28,16 @@
           </li>
           <li class="nav-items dropdown">
             <a onclick="myfunction()" class="nav-link dropdownbtn">Post</a>
-            <div id="mydropdown" class="dropdown-content">
+            <div id="mydropdown" class="dropdown-content show">
               <a href="#">Left Sidebar</a>
               <a href="#">Right Sidebar</a>
             </div>
-
+            <script>
+              function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                  }
+            </script>
+          
           </li>
           <li class="nav-items">
             <a class="nav-link" href="category.html">category</a>
@@ -59,10 +65,11 @@
       <span class="bar"></span>
     </a>
     </button>
-  
+    
   <!--  -->
-    </div>
-  
+    <!-- </div> -->
+  </div>
+    
   </section>
   
 </body>
