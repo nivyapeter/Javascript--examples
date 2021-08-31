@@ -81,7 +81,7 @@ html {
   padding-left: 15px;
   font-weight: 500;
   letter-spacing: 1px;
-  font-size: 0.94em;
+  /* font-size: 0.94em; */
 }
 .highlight {
   background-color: #6FD350;
