@@ -133,6 +133,15 @@ html {
   height: 100vh;
 
 }
+.wrap {
+  background-color: white;
+  width:700px;
+  padding: 3rem;
+  max-width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  height:50vh;
+}
 
 @media (max-width:568px){
  .navbar-toggler {
