@@ -93,6 +93,9 @@ html {
   padding-bottom: 12px;
   color:white;
 }
+.navbar-toggler {
+  display: none;
+}
 
 @media (max-width:568px){
  .navbar-toggler {
@@ -118,7 +121,7 @@ html {
 } */
 .toggle-button {
   position: absolute;
-top: 0.75rem;
+top: 1.95rem;
 right: 1rem;
 flex-direction: column;
 justify-content: space-between;
@@ -126,11 +129,12 @@ width: 25px;
 height: 21px;
 display: flex;
 flex-direction: column;
+border: 2px solid transparent;
 }
 .bar {
   height: 3px;
 width: 100%;
-background-color: black;
+background-color: gray;
 border-radius: 10px;
 
 }
