@@ -72,7 +72,7 @@ html {
   padding-top: 7px;
 }
 .dropdown-content {
-  /* display: none; */
+  display: none;
 }
 .nav-link {
   text-decoration: none;
