@@ -8,12 +8,13 @@
   <!-- <link rel="stylsheet" href="css/bootstrap.css"/> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.js">
   <title>New project</title>
 </head>
 
 <body>
   <!-- navbar -->
-  <section class="col-md-12 col-sm-12 col-xs-12 navbar bg-white" id="main-nav">
+  <header class="col-md-12 col-sm-12 col-xs-12 navbar bg-white" id="main-nav">
     <div class="container">
       <div class="logo">
         <a class="navbar-logo" href="index.html">
@@ -25,46 +26,62 @@
           <li class="nav-items">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-items dropdown">
-            <a onclick="myfunction()" class="nav-link dropdownbtn">Post</a>
-            <div id="mydropdown" class="dropdown-content">
-              <a href="#">Left Sidebar</a>
-              <a href="#">Right Sidebar</a>
-            </div>
-
-          </li>
-          <li class="nav-items">
-            <a class="nav-link" href="category.html">category</a>
-          </li>
-          <li class="nav-items">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-items">
-            <a class="nav-link"  href="contact.html">Contact</a>
-          </li>
-          <li class="nav-items">
-            <a class="nav-link highlight" href="https://gum.co/affiliates-html-template">download</a>
-
-          </li>
-
-
-        </ul>
+          <li class="nav-items dropdown01">
+            <!-- <div class="dropdown01"> -->
+              <a onclick="myFunction()" class=" nav-link">post</a>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">US</a>
+                <a href="#">Singapore</a>
+                <a href="#">Germany</a>
+              </div>
+            <!-- </div> -->
       </div>
+      <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+      </script>
 
-       <!-- mobile navbar-toggler-->
-   <button class="navbar-toggler navbar-toggler-right" type="button" data-target="#navbarshow"></button>
+      </li>
+
+      <li class="nav-items">
+        <a class="nav-link" href="category.html">category</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link highlight" href="https://gum.co/affiliates-html-template">download</a>
+
+      </li>
+
+
+      </ul>
+    </div>
+
+    <!-- mobile navbar-toggler-->
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-target="#navbarshow"></button>
     <a class="toggle-button" href="#">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
     </a>
     </button>
-  
-  <!--  -->
+
+    <!--  -->
+    <!-- </div> -->
     </div>
-  
+
+  </header>
+  <section class="banner-section">
+    <div class="wrap">
+      
+    </div>
   </section>
-  
+
 </body>
 
 </html>
