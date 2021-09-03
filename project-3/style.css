@@ -226,4 +226,7 @@ border-radius: 10px;
 .wrap {
   height: 54vh;
 }
+.banner-section {
+  height:80vh !important;
+}
 }
