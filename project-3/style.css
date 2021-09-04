@@ -225,9 +225,9 @@ border-radius: 10px;
 }
 }
 @media (max-width:494px) and (min-width:377px) {
-/* .wrap {
+.wrap {
   height: 54vh;
-} */
+}
 .banner-section {
   height:80vh !important;
 }
