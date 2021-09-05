@@ -217,12 +217,12 @@ background-color: gray;
 border-radius: 10px;
 
 }
-/* .navbarblock {
+.navbarblock {
   display: none;
 }
 .nav-items {
   display: none;
-} */
+}
 }
 @media (max-width:494px) and (min-width:377px) {
 .wrap {
