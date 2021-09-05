@@ -214,7 +214,7 @@ border: 2px solid transparent;
 height: 3px;
 width: 100%;
 background-color: gray;
-border-radius: 10px;
+border-radius: 9px;
 
 }
 .navbarblock {
@@ -229,6 +229,6 @@ border-radius: 10px;
   height: 54vh;
 }
 .banner-section {
-  height:80vh !important;
+  height:85vh !important;
 }
 }
