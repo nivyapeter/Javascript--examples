@@ -200,15 +200,15 @@ html {
 } */
 .toggle-button {
   position: absolute;
-top: 1.95rem;
-right: 1rem;
-flex-direction: column;
-justify-content: space-between;
-width: 25px;
-height: 21px;
-display: flex;
-flex-direction: column;
-border: 2px solid transparent;
+  top: 1.95rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
 }
 .bar {
 height: 3px;
