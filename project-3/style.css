@@ -167,6 +167,10 @@ html {
   font-weight: 500;
   margin-top:30px;
 }
+.feature-section {
+  margin-bottom: 30px;
+}
+
 @media (max-width:1200px) and (min-width:200px){
  .navbar-toggler {
    border-color : rgba(0,0,0,.1);
@@ -200,15 +204,15 @@ html {
 } */
 .toggle-button {
   position: absolute;
-top: 1.95rem;
-right: 1rem;
-flex-direction: column;
-justify-content: space-between;
-width: 25px;
-height: 21px;
-display: flex;
-flex-direction: column;
-border: 2px solid transparent;
+  top: 1.95rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
 }
 .bar {
 height: 3px;
